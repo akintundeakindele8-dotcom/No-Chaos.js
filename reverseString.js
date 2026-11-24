@@ -1,6 +1,7 @@
-const prompt = require('prompt-sync')();
-
-let text = prompt("Enter any word ")
-	for(let i = text.length; i >= text.length; i-- ){
-console.log(`${text.charAt(i)}`)
+const prompt = require ("prompt-sync")();
+word = prompt ("Enter any Word: ")
+reversedWord = " "
+for (character of word) {
+	reversedWord = character + reversedWord
 }
+console.log (reversedWord)
