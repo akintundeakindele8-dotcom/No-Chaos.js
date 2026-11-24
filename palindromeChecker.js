@@ -2,7 +2,7 @@ const prompt = require("prompt-sync")();
 let word = prompt("Enter any word: ");
 reversedWord = ""
 for(character in word){
-	reversedWord = character + reverseWord;
+	reversedWord = character + reversedWord;
 }
 if (reversedWord !== word){
 	console.log("It is not  a palindrome")
